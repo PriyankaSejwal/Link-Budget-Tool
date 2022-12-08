@@ -63,4 +63,6 @@ function exportToExcel() {
   document.body.appendChild(link);
   /* download the data file named "Stock_Price_Report.csv" */
   link.click();
+//   deleting the created element a in the body.
+  document.body.removeChild(link);
 }
