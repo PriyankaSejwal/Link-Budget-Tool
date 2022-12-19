@@ -139,8 +139,6 @@ function validateAdd(lata, longa, latb, longb) {
       break;
     } else if (countrycode == "nd") {
       drawPolyline();
-    } else {
-      drawPolyline();
     }
   }
 }
